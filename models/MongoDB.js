@@ -1,0 +1,9 @@
+module.exports={
+    Customers:require("./Customers"),
+    OrderDetails:require("./OrderDetails"),
+    Riders:require("./Riders"),
+    Shops:require("./Shops"),
+    Evaluates:require("./Evaluates"),
+    Dishes:require("./Dishes"),
+    Administrators:require("./Administrators")
+};
