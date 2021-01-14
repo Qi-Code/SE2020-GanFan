@@ -1,0 +1,59 @@
+name: the_gorgeous_login
+description: Gorgeous Login UI
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  dio: ^3.0.10
+  flutter_swiper: ^1.1.6
+  flutter_screenutil: ^2.2.0
+  flutter_easyrefresh: ^2.1.7
+  provide: ^1.0.2
+  fluro: ^1.7.8
+  shared_preferences: ^0.5.12
+  flutter_html: ^0.9.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+      - assets/login_logo.png
+      - assets/img/navigator1.png
+      - assets/img/navigator2.png
+      - assets/img/navigator3.png
+      - assets/img/navigator4.png
+      - assets/img/navigator5.png
+      - assets/img/leaderImage.png
+      - assets/img/recommendImage1.png
+      - assets/img/recommendImage2.png
+      - assets/img/recommendImage3.png
+      - assets/img/recommendImage4.png
+      - assets/img/touxiang.jpg
+      - assets/img/logo.png
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
